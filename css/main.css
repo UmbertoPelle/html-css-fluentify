@@ -8,6 +8,14 @@
  margin: 0 5%;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
+select:hover{
+  cursor: pointer;
+}
+
 /* header */
 header{
   background-color: blue;
@@ -127,7 +135,7 @@ nav{
 
 .collums{
   float: left;
-  width: 31%;
+  width: 33.3%;
   text-align: center;
   padding-right: 2%
 }
@@ -147,7 +155,7 @@ nav{
 }
 
 .collums h2{
-  color: green;
+  color: rgb(25, 201, 25);
   margin-bottom: 20px;
 }
 
@@ -211,4 +219,7 @@ nav{
 
 .bottom-right select{
   margin: 0 15px;
+  padding: 5px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
 }
