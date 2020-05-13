@@ -82,7 +82,7 @@ nav{
 .intro{
   width: 100%;
   height: 100px;
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .intro .inside-intro {
@@ -91,6 +91,33 @@ nav{
 }
 
 .inside-intro strong{
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 22px;
+}
+
+.row::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.collums{
+  float: left;
+  width: 33%;
+  /* debug */
+  height:200px;
+  background-color: orange;
+}
+
+.collums-img{
+  width: 100%;
+  height:30%;
+  background-image: url("../img/fluentify-piano.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.collums h2{
+  color: green;
 }
