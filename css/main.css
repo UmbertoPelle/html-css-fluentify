@@ -8,6 +8,7 @@
  margin: 0 5%;
 }
 
+/* header */
 header{
   background-color: blue;
   height: 500px;
@@ -16,6 +17,7 @@ header{
 
 nav{
   height: 10%;
+  font-size: 20px;
 }
 
 #logo{
@@ -30,23 +32,27 @@ nav{
   line-height: 50px;
 }
 
-ul {
+#list-header{
   float: left;
   width: 55%;
   height: 100%;
   text-align: center;
 }
 
-li{
+#list-header li{
   display: inline-block;
   line-height: 50px;
   padding-bottom: 10px;
 }
 
-li a{
+#list-header li a{
   text-decoration: none;
   margin-right: 5px;
   color: white;
+}
+
+#list-header li:hover a{
+  text-decoration: underline;
 }
 
 .login{
@@ -69,4 +75,22 @@ li a{
   height: 100%;
   font-size: 30px;
   padding-top: 10%;
+}
+
+/* main */
+
+.intro{
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+}
+
+.intro .inside-intro {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.inside-intro strong{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 22px;
 }
