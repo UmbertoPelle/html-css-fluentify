@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.global{
+ margin: 0 5%;
+}
+
+header{
+  background-color: blue;
+  height: 500px;
+  color: white;
+}
+
+nav{
+  height: 10%;
+  background-color: red;
+}
+
+#logo{
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: green;
+  text-align: center;
+  line-height: 50px;
+}
+
+ul {
+  float: left;
+  width: 55%;
+  height: 100%;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  line-height: 50px;
+  padding-bottom: 10px;
+}
+
+li a{
+  text-decoration: none;
+  margin-right: 5px;
+  color: white;
+}
+
+.login{
+  float: left;
+  width: 25%;
+  line-height: 50px;
+}
+
+.jumbo{
+  height:90%;
+}
+
+.header-bunner{
+  float: left;
+  background-color: orange;
+  width:40%;
+  height: 100%;
+}
