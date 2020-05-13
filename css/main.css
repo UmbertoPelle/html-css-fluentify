@@ -86,12 +86,12 @@ nav{
   background-color: lightgrey;
 }
 
-.intro .inside-intro {
+.intro .top-intro {
   text-align: center;
   padding-top: 1%;
 }
 
-.inside-intro strong{
+.top-intro strong{
   color: rgba(255, 255, 255, 0.8);
   font-size: 22px;
 }
@@ -106,6 +106,7 @@ nav{
   content: "";
   display:table;
   clear: both;
+  margin-bottom: 10px;
 }
 
 .collums{
@@ -166,3 +167,22 @@ nav{
 }
 
 /* fourth section */
+
+.bottom-intro{
+  display: inline-block;
+  width: 49%;
+  line-height: 100px;
+  text-align: center;
+}
+
+.bottom-right{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+}
+
+.bottom-right select{
+  margin: 0 15px;
+}
