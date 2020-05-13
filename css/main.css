@@ -77,6 +77,22 @@ nav{
   padding-top: 10%;
 }
 
+.blue-button{
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.green-button{
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
 /* main */
 
 /* first section */
