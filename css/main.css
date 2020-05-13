@@ -16,14 +16,16 @@ header{
 
 nav{
   height: 10%;
-  background-color: red;
 }
 
 #logo{
   float: left;
   width: 20%;
   height: 100%;
-  background-color: green;
+  background-image: url("../img/fluentify-logo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   text-align: center;
   line-height: 50px;
 }
@@ -55,11 +57,16 @@ li a{
 
 .jumbo{
   height:90%;
+  background-image: url("../img/fluentify-jumbo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .header-bunner{
   float: left;
-  background-color: orange;
   width:40%;
   height: 100%;
+  font-size: 30px;
+  padding-top: 10%;
 }
